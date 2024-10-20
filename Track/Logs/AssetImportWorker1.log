@@ -1,0 +1,1048 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ru' Physical Memory: 32581 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+S:\unity\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+S:/unity/projects/Track
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53573
+Successfully changed project path to: S:/unity/projects/Track
+S:/unity/projects/Track
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17284] Host "[IP] 192.168.0.108 [Port] 0 [Flags] 2 [Guid] 427587794 [EditorId] 427587794 [Version] 1048832 [Id] WindowsEditor(7,bae) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17284] Host "[IP] 192.168.0.108 [Port] 0 [Flags] 2 [Guid] 427587794 [EditorId] 427587794 [Version] 1048832 [Id] WindowsEditor(7,bae) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 6.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path S:/unity/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path S:/unity/projects/Track/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10053 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'S:/unity/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'S:/unity/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'S:/unity/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: S:/unity/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: S:/unity/2022.3.14f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.004313 seconds.
+- Loaded All Assemblies, in  0.312 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.211 seconds
+Domain Reload Profiling: 523ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (122ms)
+		LoadAssemblies (105ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (109ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (211ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (164ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.523 seconds
+Refreshing native plugins compatible for Editor in 2.31 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.463 seconds
+Domain Reload Profiling: 986ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (316ms)
+		LoadAssemblies (251ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (124ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (463ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (338ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (269ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (56.8 KB). Loaded Objects now: 3558.
+Memory consumption went from 122.6 MB to 122.6 MB.
+Total: 2.306400 ms (FindLiveObjects: 0.151400 ms CreateObjectMapping: 0.071400 ms MarkObjects: 2.006800 ms  DeleteObjects: 0.075900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.355 seconds
+Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.784 seconds
+Domain Reload Profiling: 1139ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (784ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (384ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (313ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3561.
+Memory consumption went from 123.5 MB to 123.4 MB.
+Total: 2.389800 ms (FindLiveObjects: 0.182600 ms CreateObjectMapping: 0.091500 ms MarkObjects: 2.073900 ms  DeleteObjects: 0.041000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.338 seconds
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.812 seconds
+Domain Reload Profiling: 1150ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (220ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (813ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (397ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (318ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3564.
+Memory consumption went from 125.4 MB to 125.4 MB.
+Total: 2.678600 ms (FindLiveObjects: 0.156300 ms CreateObjectMapping: 0.117300 ms MarkObjects: 2.351400 ms  DeleteObjects: 0.052700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3242.904682 seconds.
+  path: Assets/HorrorPuzzleItems/Battery/Icons/Icon_Battery_AA.png
+  artifactKey: Guid(258b2879d3bdc1b428009397e2dda85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorPuzzleItems/Battery/Icons/Icon_Battery_AA.png using Guid(258b2879d3bdc1b428009397e2dda85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ca6a06af6090d55844c07e19e41552') in 0.103121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HorrorPuzzleItems/Card/Icons/Icon_Card_Security.png
+  artifactKey: Guid(78f11b6a94d9d0648b6cde62c454c7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorPuzzleItems/Card/Icons/Icon_Card_Security.png using Guid(78f11b6a94d9d0648b6cde62c454c7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3deec27b93963f6523248bf6e1b7c3c7') in 0.026669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/HorrorPuzzleItems/Card/Icons/Icon_Card_GateSystemBlue.png
+  artifactKey: Guid(3ecf563d7dfc35647bf05fe4633a0062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorPuzzleItems/Card/Icons/Icon_Card_GateSystemBlue.png using Guid(3ecf563d7dfc35647bf05fe4633a0062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7bffa9b648406ae8ed66d841d11257') in 0.035548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HorrorPuzzleItems/Floppy/Icons/Icon_Floopy_Red.png
+  artifactKey: Guid(2c2a4ae8c8f95f246acf319ca4c4df3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorPuzzleItems/Floppy/Icons/Icon_Floopy_Red.png using Guid(2c2a4ae8c8f95f246acf319ca4c4df3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce68615a3742b04f7bf3b4d923ee3ef1') in 0.026865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HorrorPuzzleItems/Card/Icons/Icon_Card_GateSystemRed.png
+  artifactKey: Guid(73a351ee1a6ffe84791f3ba0714df6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorPuzzleItems/Card/Icons/Icon_Card_GateSystemRed.png using Guid(73a351ee1a6ffe84791f3ba0714df6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3944bf1848359189efa89741c44d46e3') in 0.025125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.014615 seconds.
+  path: Assets/HorrorPuzzleItems/Gem/Icons/Icon_Gem_Green.png
+  artifactKey: Guid(3673614ef2e3f0342a298a084ac491e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorPuzzleItems/Gem/Icons/Icon_Gem_Green.png using Guid(3673614ef2e3f0342a298a084ac491e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fda59384fb7a828ec570866b6841b0') in 0.016939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013612 seconds.
+  path: Assets/HorrorPuzzleItems/Gem/Icons/Icon_Gem_Yellow.png
+  artifactKey: Guid(d251e08a28bc78b41b72884e1def2e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorPuzzleItems/Gem/Icons/Icon_Gem_Yellow.png using Guid(d251e08a28bc78b41b72884e1def2e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c9702fac6a12ff939b7719e6ea9182') in 0.017068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.464922 seconds.
+  path: Assets/HorrorPuzzleItems/USBKey/Icons/Icon_USBKey_Red.png
+  artifactKey: Guid(7ba37a700c7be7e4489885e8a323df23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorPuzzleItems/USBKey/Icons/Icon_USBKey_Red.png using Guid(7ba37a700c7be7e4489885e8a323df23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86db8cac635e796b4627c3dd79df6c3e') in 0.018822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.386 seconds
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.861 seconds
+Domain Reload Profiling: 1246ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (159ms)
+		LoadAssemblies (253ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (861ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (410ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3573.
+Memory consumption went from 131.5 MB to 131.5 MB.
+Total: 2.207200 ms (FindLiveObjects: 0.158400 ms CreateObjectMapping: 0.067400 ms MarkObjects: 1.942600 ms  DeleteObjects: 0.037900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.378 seconds
+Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.833 seconds
+Domain Reload Profiling: 1211ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (834ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (392ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (313ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3576.
+Memory consumption went from 133.7 MB to 133.6 MB.
+Total: 2.348800 ms (FindLiveObjects: 0.193600 ms CreateObjectMapping: 0.086500 ms MarkObjects: 2.018000 ms  DeleteObjects: 0.049600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 69.803286 seconds.
+  path: Assets/Scripts/CamController.cs
+  artifactKey: Guid(08f76e934d5799341be340c51a19c041) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CamController.cs using Guid(08f76e934d5799341be340c51a19c041) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0f8000223f24b993dc5dffb766be419') in 0.103549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HorrorPuzzleItems/USBKey/Icons/Icon_USBKey_Yellow.png
+  artifactKey: Guid(5346b48a3aa933146b22338ec3fd768a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/USBKey/Icons/Icon_USBKey_Yellow.png using Guid(5346b48a3aa933146b22338ec3fd768a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3f5244f546ac9c0bfcbb886992d5b0d') in 0.047722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HorrorPuzzleItems/Card/Textures/Card_GateSystemYellow.png
+  artifactKey: Guid(8fad648b5890103498cd9a25eb28bbea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Card/Textures/Card_GateSystemYellow.png using Guid(8fad648b5890103498cd9a25eb28bbea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '512391c9cd3cdea3166d55053ed747ba') in 0.018547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HorrorPuzzleItems/Gem/Prefabs/Gem_Yellow.prefab
+  artifactKey: Guid(998383175bea1704fafb8d9a266f119d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Gem/Prefabs/Gem_Yellow.prefab using Guid(998383175bea1704fafb8d9a266f119d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '799915a00307f8bb7859b8a975681299') in 0.015926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HorrorPuzzleItems/Card/Textures/Card_GateSystemRed.png
+  artifactKey: Guid(6e4f20cb35dba394b9e0dc75f4fddb2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Card/Textures/Card_GateSystemRed.png using Guid(6e4f20cb35dba394b9e0dc75f4fddb2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e799c58e4e0dfb33386d0289eb2e373') in 0.017966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HorrorPuzzleItems/Gear/Textures/Gear.png
+  artifactKey: Guid(09702c3634ecc1e4a85b6e7be2510179) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Gear/Textures/Gear.png using Guid(09702c3634ecc1e4a85b6e7be2510179) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f680cbcc577529dcc85e447f3534c4c2') in 0.019790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HorrorPuzzleItems/Crank/Icons/Icon_Crank.png
+  artifactKey: Guid(8fa8cb98fa777cd459aef71df268c2cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Crank/Icons/Icon_Crank.png using Guid(8fa8cb98fa777cd459aef71df268c2cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f8a2a6bd7807ef4bcc4aca31be64ece') in 0.022116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HorrorPuzzleItems/Card/Materials/Card_Security.mat
+  artifactKey: Guid(e46113138ffd93d48ad72c93a5a3c6c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Card/Materials/Card_Security.mat using Guid(e46113138ffd93d48ad72c93a5a3c6c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0175daf1ced8be4d9826caee5073d1c') in 0.022197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HorrorPuzzleItems/Lighter/Textures/Lighter_Chrome.png
+  artifactKey: Guid(7e6b995e3dac41640a9e444a491ba31e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Lighter/Textures/Lighter_Chrome.png using Guid(7e6b995e3dac41640a9e444a491ba31e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '734b445208a5a84e6ae07955f01107f3') in 0.015990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/IPickUpAble.cs
+  artifactKey: Guid(e54c9a7c96e77614aad19d968e3d0a4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/IPickUpAble.cs using Guid(e54c9a7c96e77614aad19d968e3d0a4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e4999857d12b8cf60dcba5d159575f7') in 0.010296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HorrorPuzzleItems/Gear/Icons/Icon_Gear.png
+  artifactKey: Guid(2e7ac424d2d6fd9409c61113863dac08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Gear/Icons/Icon_Gear.png using Guid(2e7ac424d2d6fd9409c61113863dac08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '11ab8f51d012dddf1560524873bb40ef') in 0.023948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HorrorPuzzleItems/Card/Materials/Card_GateRed.mat
+  artifactKey: Guid(f802aba63e0f0864dacd288233586c79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Card/Materials/Card_GateRed.mat using Guid(f802aba63e0f0864dacd288233586c79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e19806bb95520c37953d51bcdf006228') in 0.012522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HorrorPuzzleItems/Card/Prefabs/Card_Security.prefab
+  artifactKey: Guid(e7b4b7e0ed8684642ad44256d56825e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Card/Prefabs/Card_Security.prefab using Guid(e7b4b7e0ed8684642ad44256d56825e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '812b71877fb6240d260cfe0e9551bb75') in 0.009466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HorrorPuzzleItems/SmallKey/Materials/SmallKey_Rusty.mat
+  artifactKey: Guid(e6fba336b497b09449f6d1411a1fa7b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/SmallKey/Materials/SmallKey_Rusty.mat using Guid(e6fba336b497b09449f6d1411a1fa7b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '792996b03f5d67885f9dc2f5c3a12e8d') in 0.009283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HorrorPuzzleItems/Gem/Icons/Icon_Gem_Green.png
+  artifactKey: Guid(3673614ef2e3f0342a298a084ac491e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Gem/Icons/Icon_Gem_Green.png using Guid(3673614ef2e3f0342a298a084ac491e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de0751a74fc65d6b4f5d70bfbe0aaccc') in 0.023091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HorrorPuzzleItems/Cable/Materials/Cable_Black.mat
+  artifactKey: Guid(b49f48605560daa499a6520d007a5f69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Cable/Materials/Cable_Black.mat using Guid(b49f48605560daa499a6520d007a5f69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7cf0b169813b58f4c362d7708d06e3e') in 0.009682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scripts/PickUp.cs
+  artifactKey: Guid(33b184a719674ec4dbf9143b2d64f533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/PickUp.cs using Guid(33b184a719674ec4dbf9143b2d64f533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3c8f09cbf399d0a485552b65204b2e0') in 0.008823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/HorrorPuzzleItems/Lighter/Models/Lighter_Metal.fbx
+  artifactKey: Guid(e7e0a9650257e5f47818cd70694ce099) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Lighter/Models/Lighter_Metal.fbx using Guid(e7e0a9650257e5f47818cd70694ce099) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '510aa894247dfd43a68529199cca4f40') in 0.030458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HorrorPuzzleItems/Cable/Icons/Cable_Black.png
+  artifactKey: Guid(d50c38928fa2cba4eac71303b083ffd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Cable/Icons/Cable_Black.png using Guid(d50c38928fa2cba4eac71303b083ffd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '509e6c1db2624fedd3b785815d04f7ae') in 0.020990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(1e2e88aa35297d04ca16b54797a9ed04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/PlayerController.cs using Guid(1e2e88aa35297d04ca16b54797a9ed04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f41592dfb3f17309d88c68fa1849ab0') in 0.009164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/HorrorPuzzleItems/Card/Textures/Card_Security.png
+  artifactKey: Guid(efa71b35879ad41448391d4a69c0ccfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Card/Textures/Card_Security.png using Guid(efa71b35879ad41448391d4a69c0ccfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '751983e2b20899decd47d38b1076a228') in 0.020221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HorrorPuzzleItems/Card/Prefabs/Card_GateRed.prefab
+  artifactKey: Guid(5bbc0ec83dface3418b0ae505a847eb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Card/Prefabs/Card_GateRed.prefab using Guid(5bbc0ec83dface3418b0ae505a847eb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0603d95983ef12e9e3663f976605b09e') in 0.010911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HorrorPuzzleItems/Floppy/Prefabs/Floppy_Red.prefab
+  artifactKey: Guid(cea4dd268a7f22e4d9cc0b6adc262371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Floppy/Prefabs/Floppy_Red.prefab using Guid(cea4dd268a7f22e4d9cc0b6adc262371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fe99945593fdcb566bbcd3d3e209e56') in 0.009765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HorrorPuzzleItems/SmallKey/Textures/SmallKey_Rusty.png
+  artifactKey: Guid(5bee37bcdd002094fb56441b756e95de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/SmallKey/Textures/SmallKey_Rusty.png using Guid(5bee37bcdd002094fb56441b756e95de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50b20554bd25bfc4420734c1086eea07') in 0.018955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HorrorPuzzleItems/USBKey/Textures/USBKey_Yellow.png
+  artifactKey: Guid(9ff6a18ca73144644b880690798c1b4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/USBKey/Textures/USBKey_Yellow.png using Guid(9ff6a18ca73144644b880690798c1b4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46d81a500bfe69afa95e4ac6b19976b5') in 0.019577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HorrorPuzzleItems/USBKey/Prefabs/USBKey_Red.prefab
+  artifactKey: Guid(ac289c334f1e2554fa2c3f187a354c4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/USBKey/Prefabs/USBKey_Red.prefab using Guid(ac289c334f1e2554fa2c3f187a354c4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1d364bf0c98b78f31cf4805716d245d') in 0.010184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HorrorPuzzleItems/USBKey/Materials/USBKey_Yellow.mat
+  artifactKey: Guid(5e5c7895edf99524589e2deb11d75cb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/USBKey/Materials/USBKey_Yellow.mat using Guid(5e5c7895edf99524589e2deb11d75cb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7bc5cc007226cc40c574fb02dd64f69') in 0.011237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HorrorPuzzleItems/Gem/Icons/Icon_Gem_Yellow.png
+  artifactKey: Guid(d251e08a28bc78b41b72884e1def2e04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Gem/Icons/Icon_Gem_Yellow.png using Guid(d251e08a28bc78b41b72884e1def2e04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2e3ccb72f6c27e93be5bca427194590') in 0.019822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HorrorPuzzleItems/Valve/Icons/Icon_Valve.png
+  artifactKey: Guid(fa0f0b3020f645b44aa2527d0725e215) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Valve/Icons/Icon_Valve.png using Guid(fa0f0b3020f645b44aa2527d0725e215) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f49a4869251c441bdac87fd3b464c96') in 0.023462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HorrorPuzzleItems/SmallKey/Models/SmallKey.fbx
+  artifactKey: Guid(501a19826a840da4a93f946d0d749a6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/SmallKey/Models/SmallKey.fbx using Guid(501a19826a840da4a93f946d0d749a6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb1d1a573feb48b5e75243390ddff9a3') in 0.017331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HorrorPuzzleItems/Card/Prefabs/Card_GateBlue.prefab
+  artifactKey: Guid(9ffd4edfa5582d9498e607317781e880) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Card/Prefabs/Card_GateBlue.prefab using Guid(9ffd4edfa5582d9498e607317781e880) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f13629e93fdc018601a4055ffb9a8a3') in 0.009297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HorrorPuzzleItems/Floppy/Icons/Icon_Floopy_Red.png
+  artifactKey: Guid(2c2a4ae8c8f95f246acf319ca4c4df3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Floppy/Icons/Icon_Floopy_Red.png using Guid(2c2a4ae8c8f95f246acf319ca4c4df3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ddce62f43b20e32ab6e1b26964d2e81') in 0.021639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HorrorPuzzleItems/Lighter/Prefabs/Lighter_FlowerPattern.prefab
+  artifactKey: Guid(e08e8abab457a2d4ea7c8bf30549c4c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Lighter/Prefabs/Lighter_FlowerPattern.prefab using Guid(e08e8abab457a2d4ea7c8bf30549c4c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc8ea2f96d6df2c32150d6cea13b8bfc') in 0.010697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HorrorPuzzleItems/Gem/Materials/Gem_Blue.mat
+  artifactKey: Guid(13eeaaed3c01f084ab29f45259e79ffc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Gem/Materials/Gem_Blue.mat using Guid(13eeaaed3c01f084ab29f45259e79ffc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38da6a27ca88a95df871c54ab88f6ed8') in 0.010948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HorrorPuzzleItems/Crank/Materials/New Material.mat
+  artifactKey: Guid(640f35da4ab27df449e9579e8c01733b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Crank/Materials/New Material.mat using Guid(640f35da4ab27df449e9579e8c01733b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8936585a65e748053e63091c2610c391') in 0.011034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HorrorPuzzleItems/USBKey/Prefabs/USBKey_Metal.prefab
+  artifactKey: Guid(cb606318345a3184fbf0a8dc62bc6a61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/USBKey/Prefabs/USBKey_Metal.prefab using Guid(cb606318345a3184fbf0a8dc62bc6a61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b50611776a142b7debf2337e397056c') in 0.009378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000870 seconds.
+  path: Assets/HorrorPuzzleItems/Gem/Materials/Gem_Red.mat
+  artifactKey: Guid(f7bb5bc051f54134fb73c705cfd57f92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Gem/Materials/Gem_Red.mat using Guid(f7bb5bc051f54134fb73c705cfd57f92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd250ca2c778b6130af191c5be18a531d') in 0.011130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/HorrorPuzzleItems/USBKey/Textures/USBKey_Blue.png
+  artifactKey: Guid(ee5fc128b3828bb46bed14e9f93b71b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/USBKey/Textures/USBKey_Blue.png using Guid(ee5fc128b3828bb46bed14e9f93b71b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef8132b087baedb8be20f4d0f4389e80') in 0.019512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HorrorPuzzleItems/USBKey/Textures/USBKey_Metal.png
+  artifactKey: Guid(21c94874e37c5914c8bdbbc32b312243) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/USBKey/Textures/USBKey_Metal.png using Guid(21c94874e37c5914c8bdbbc32b312243) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bff2245f2ee92978c70b1554c1970596') in 0.018526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HorrorPuzzleItems/Crank/Models/Crank.fbx
+  artifactKey: Guid(576c615aede1b3e44b1022bae3e08b6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Crank/Models/Crank.fbx using Guid(576c615aede1b3e44b1022bae3e08b6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '484a9e0355d7475151e363e4cde04f6c') in 0.019251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HorrorPuzzleItems/Card/Textures/Card_GateSystemBlue.png
+  artifactKey: Guid(a3a6cbbd733b86a4a997f392628200fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Card/Textures/Card_GateSystemBlue.png using Guid(a3a6cbbd733b86a4a997f392628200fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f846d7266c4f7892a47f9ab2ac94454') in 0.018832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HorrorPuzzleItems/Lighter/Prefabs/Lighter_Metal.prefab
+  artifactKey: Guid(ced74f861cc67534e8a7d791f17c14a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Lighter/Prefabs/Lighter_Metal.prefab using Guid(ced74f861cc67534e8a7d791f17c14a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12d6ffd6e48b4d47eaea2e917dacf6b0') in 0.020352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HorrorPuzzleItems/Card/Materials/Card_GateYellow.mat
+  artifactKey: Guid(b18ddb68424433542b47221e9ab463e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Card/Materials/Card_GateYellow.mat using Guid(b18ddb68424433542b47221e9ab463e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f632a78f07c8dbeb70b42cd5495118aa') in 0.011669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HorrorPuzzleItems/Lighter/Materials/Lighter_Brass.mat
+  artifactKey: Guid(bbf4354716ffef143997eef1ba17e3f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Lighter/Materials/Lighter_Brass.mat using Guid(bbf4354716ffef143997eef1ba17e3f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82ef9d5d09213f065f8ac067d4c4e37f') in 0.010597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HorrorPuzzleItems/USBKey/Textures/USBKey_Red.png
+  artifactKey: Guid(0dc00336a72773742b4e8ebcaf48b21f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/USBKey/Textures/USBKey_Red.png using Guid(0dc00336a72773742b4e8ebcaf48b21f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db73edef0ba87c2fc3c98fa9d83a5216') in 0.018674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HorrorPuzzleItems/USBKey/Materials/USBKey_Red.mat
+  artifactKey: Guid(9ae364dfda33c4741a3f5a46f1116764) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/USBKey/Materials/USBKey_Red.mat using Guid(9ae364dfda33c4741a3f5a46f1116764) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79ebc2699317f287b2315e0043a434e2') in 0.009873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HorrorPuzzleItems/USBKey/Materials/USBKey_Metal.mat
+  artifactKey: Guid(acb65b52aa893e4489364042a843c0dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/USBKey/Materials/USBKey_Metal.mat using Guid(acb65b52aa893e4489364042a843c0dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4b2f57b13ca5d4bbdacba0d811fe00d') in 0.010483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HorrorPuzzleItems/Floppy/Textures/Floppy_Yellow.png
+  artifactKey: Guid(4109652704eab9f4ab869d6c8f30b188) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Floppy/Textures/Floppy_Yellow.png using Guid(4109652704eab9f4ab869d6c8f30b188) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e194d900c2ea7cb54056c749020f119b') in 0.018714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HorrorPuzzleItems/Card/Icons/Icon_Card_GateSystemYellow.png
+  artifactKey: Guid(dae2b16df388c2647801ea7334b766b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Card/Icons/Icon_Card_GateSystemYellow.png using Guid(dae2b16df388c2647801ea7334b766b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44765ffbb5aef7fff14a3a12881e46a9') in 0.023347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HorrorPuzzleItems/Card/Icons/Icon_Card_Security.png
+  artifactKey: Guid(78f11b6a94d9d0648b6cde62c454c7c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Card/Icons/Icon_Card_Security.png using Guid(78f11b6a94d9d0648b6cde62c454c7c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b89bf0ed67f426c988302a78e3abe46') in 0.020612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HorrorPuzzleItems/Gem/Materials/Gem_Green.mat
+  artifactKey: Guid(93b30ab465e93914ea5663cc362daba6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Gem/Materials/Gem_Green.mat using Guid(93b30ab465e93914ea5663cc362daba6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04850199531b4f8e30ee2beb09e46e55') in 0.011669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HorrorPuzzleItems/Crank/Prefabs/Crank.prefab
+  artifactKey: Guid(ecac38706cd74b24cb201deacea4dec0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Crank/Prefabs/Crank.prefab using Guid(ecac38706cd74b24cb201deacea4dec0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f775ce2b23797d4cad1583e74b3b7d8') in 0.009313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/HorrorPuzzleItems/USBKey/Icons/Icon_USBKey_Metal.png
+  artifactKey: Guid(5b4bd153173c29048b1d05a2f50f58f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/USBKey/Icons/Icon_USBKey_Metal.png using Guid(5b4bd153173c29048b1d05a2f50f58f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd711532cc6a5660963a77be4eb15c111') in 0.020442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HorrorPuzzleItems/Floppy/Models/Floppy.fbx
+  artifactKey: Guid(e674d7edd28d779438249d02fe04396d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Floppy/Models/Floppy.fbx using Guid(e674d7edd28d779438249d02fe04396d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aed72da0ef9717c0fda310f8cdd2f231') in 0.018068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HorrorPuzzleItems/USBKey/Prefabs/USBKey_Blue.prefab
+  artifactKey: Guid(ac4bf23be814be543840c4634b4c7fbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/USBKey/Prefabs/USBKey_Blue.prefab using Guid(ac4bf23be814be543840c4634b4c7fbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33f41687d5b40ecaf53a718d3170484b') in 0.010010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HorrorPuzzleItems/Battery/Prefabs/BatteryAA.prefab
+  artifactKey: Guid(8809bf6169090444b94e702fbc61c496) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Battery/Prefabs/BatteryAA.prefab using Guid(8809bf6169090444b94e702fbc61c496) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a95960e647b483d1fb0522567ac9759a') in 0.008871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HorrorPuzzleItems/Floppy/Textures/Floppy_Blue.png
+  artifactKey: Guid(25ba130dc8d83ac4fb0631b45836ad16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Floppy/Textures/Floppy_Blue.png using Guid(25ba130dc8d83ac4fb0631b45836ad16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4401a72f119bf2cc5cadb79cdb5815cb') in 0.018914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HorrorPuzzleItems/Floppy/Textures/Floppy_Red.png
+  artifactKey: Guid(862f87690561e8a4584f8d6b0465b289) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Floppy/Textures/Floppy_Red.png using Guid(862f87690561e8a4584f8d6b0465b289) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '944fc031323be16b22502d150a56236b') in 0.017477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HorrorPuzzleItems/Gem/Textures/Gem_Green.png
+  artifactKey: Guid(46420a5c74792ca419e3f659aa0e7068) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HorrorPuzzleItems/Gem/Textures/Gem_Green.png using Guid(46420a5c74792ca419e3f659aa0e7068) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9d1baef0508939e581201bbda8e0097') in 0.018746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
